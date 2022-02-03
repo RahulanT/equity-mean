@@ -1,0 +1,29 @@
+.divcontainers {
+    background-color: aqua;
+}
+
+.divIndent {
+
+    padding: 20px;
+}
+
+.mainButtonClass {
+
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+
+} 
+
+button#sub-div-button-1{
+
+    background-color: brown;
+}
+button#sub-div-button-2{
+
+    background-color: green;
+}

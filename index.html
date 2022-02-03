@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>I CAN DO IT</title>
+    <link rel="stylesheet" href= "./css_practice.css">
+    <script src= "./index_js.js"></script>
+</head>
+<body>
+
+    <div id= "main-div-container">
+        <h1>HTML & CSS Practice</h1>
+        <p>Lets begin with a simple paragraph.</p>
+    
+        <div class = "divcontainers divIndent" id="sub-div-container-1">
+            <p>This is the sub-div container 1</p>
+        </div>
+
+        <div class = "divIndent">
+            <button onClick = "subButtonfunc(this.id)" class= "mainButtonClass" id = "sub-div-button-1" >Button 1</button>
+        </div>
+
+        <div class =  "divcontainers divIndent">
+             <button onClick = "subButtonfunc(this.id)" class= "mainButtonClass" id="sub-div-button-2">Button 2</button>
+        </div>
+    </div>
+
+    <div id = "FormBlock" >
+
+        <form id= letsmakeaform>
+
+            <input type="text" name="firstName" id="firstName"><br> 
+            <input type="text" name="lastName" id="lastName"><br> 
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>  <!-- connects to the above ID -->
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>  <!-- connects to the above ID -->      
+            <input type="submit" name="mainFormSubmit" id="mainFormSubmit" onclick="registerUser()">   
+
+        </form>
+
+
+    </div>
+
+</body>
+</html>
